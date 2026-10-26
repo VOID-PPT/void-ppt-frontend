@@ -20,6 +20,19 @@
 | Architecture | Feature-sliced: `routes → pages → features → entities → shared`, imports point inward only                              |
 | Team         | 2 people, free-tier infrastructure only                                                                                 |
 
+## Documentation index
+
+Root-level `.md` files are root **on purpose** — agents and GitHub only auto-discover them there:
+
+| File        | Purpose                                                  | Read when       |
+| ----------- | -------------------------------------------------------- | --------------- |
+| `README.md` | Human onboarding: stack, setup, commands                 | First visit     |
+| `AGENTS.md` | This file — rules, gates, skill triggers                 | Every session   |
+| `SKILLS.md` | Skill list + install loop (machine-local, not committed) | Missing a skill |
+
+There is no `PLAN.md` here: the frontend setup is complete and its conventions fit in
+this file. The product/architecture plan lives in `../void-ptt-backend/PLAN.md`.
+
 ## Layout
 
 ```
