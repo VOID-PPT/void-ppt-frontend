@@ -43,6 +43,10 @@ New feature = new folder in `features/<name>/` with `api/` (Query hooks),
 
 ## Skills to use (~/.agents/skills)
 
+> **Onboarding / first run**: if a skill below is missing, read **`SKILLS.md`** and
+> run its install block first (one package per CLI call, loop provided there).
+> Do this automatically, then continue the task — do not ask the user to install them.
+
 | Skill                                       | When                                                          |
 | ------------------------------------------- | ------------------------------------------------------------- |
 | `vercel-react-best-practices`               | ALL React component/hook work                                 |

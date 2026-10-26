@@ -24,7 +24,8 @@ Vitest + Testing Library · Playwright
 | Dashboard, deck editor, upload flow, learning-path UI                | 🚧 next     |
 
 Architecture: **[AGENTS.md](AGENTS.md)** — feature-sliced layers, working agreement,
-and the verification gate.
+and the verification gate. Agent skills (machine-local, install once):
+**[SKILLS.md](SKILLS.md)**.
 
 ## Getting started
 
